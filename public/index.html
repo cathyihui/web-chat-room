@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first chat app</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link href = "style.css" rel ="stylesheet"/>
+</head>
+
+
+<body>
+    <div id = "cathy-chat">
+        <div id="chat-window">
+
+             <div id = "output"></div> 
+
+             <!--Add this code in the chat-window, parallel to the output-->
+            <div id = "feedback"></div>
+                                     
+        
+        </div>
+       <input id="handle" type = "text" placeholder="Name"/>
+       <input id="message" type = "text" placeholder="Message"/>
+       <button id="send">Send</button>
+    </div>
+
+
+    <script src = "chat.js"></script>
+</body>
+</html>
